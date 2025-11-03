@@ -152,7 +152,9 @@ body {
 
 /* companies section*/
 
-
+.parent .companies img {
+    display: block;
+}
 .parent .companies a{
     display: block;
     margin-bottom: 20%;
