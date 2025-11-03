@@ -1,0 +1,484 @@
+body {
+  font-family: 'Bai Jamjuree', sans-serif;
+  background-image: url('images/bg-header-desktop.png');
+  background-repeat: no-repeat;
+  margin: 0%;
+  padding: 0%;
+  
+}
+ /* constant classes */
+.parent .logo {
+    padding-top: 20%;
+    display: block;
+    width: 30%;
+    padding-bottom: 10%;
+    margin: auto;
+}
+.parent section .mobile  {
+    display: block;
+
+}
+.parent section button {
+    display: block;
+    margin-top: 8%;
+    margin-bottom: -2%;
+
+    cursor: pointer;
+    
+    width: 85%;
+    border: none;
+    font-size: large;
+    border-radius: 30px;
+    padding: 5% 10%;
+    color: white;
+}
+.parent section .purpole{
+    background-color: hsl(233, 100%, 69%);
+}
+.parent section .green{
+    background-color: hsl(171, 66%, 44%);
+}
+.purpole:hover{
+    transition: 0.7s;
+    box-shadow: 0px 3px 11px hsl(233, 100%, 69%);
+}
+.green:hover{
+    transition: 0.7s;
+    box-shadow: 0px 3px 11px hsl(171, 66%, 44%);
+}
+
+
+.parent section , footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 40%;
+    
+}
+.parent section h1,h2,h3,h4{
+    font-size: xx-large;
+    color: hsl(210, 10%, 33%) ;
+    margin-bottom: 4%;
+    
+}
+.parent section p {
+    color: hsl(201, 11%, 66%);
+    line-height: 1.6;
+    font-size: large; 
+    margin-top: 0;
+}
+
+.parent section  .h2{
+    font-size: x-large;
+    margin-top: 7%;
+    margin-bottom: 3%;
+}
+
+
+
+.parent .download ,.parent .companies ,.parent .control {
+    margin-top: 20%;
+}
+
+
+
+
+/* head section */
+
+
+.parent .head {
+    margin-top: 0%;
+}
+.parent .head p {
+    margin: 0%;
+    margin-top: 2%;
+    margin-bottom: 4%;
+    font-size: large;
+    
+    
+}
+
+
+
+
+
+
+/* features section */
+
+.parent .features p  {
+    margin-top: 0%;
+    
+}
+.parent .features img  {
+    width: 85%;
+    margin-top: 13%;
+    padding-bottom: 8%;
+    
+}
+.parent .title p {
+    margin-bottom: 15%;
+}
+
+
+/* access section */
+
+.parent .access img{
+    width: 95%;
+    margin-top: 10%;
+
+}
+
+
+/* control section */
+
+.parent .control h2 + p {
+    padding-bottom: 15%;
+
+}
+.parent .control div p{
+
+
+    margin-bottom: 0;
+
+}
+.parent .control div img {
+
+    margin-top: 0%; 
+    margin-bottom: 4%; 
+}
+
+
+/* companies section*/
+
+
+.parent .companies a{
+    display: block;
+    margin-bottom: 20%;
+}
+.parent .companies img:hover{
+    color: blue;
+}
+
+/* Download section (Empty)  */
+
+
+
+
+
+
+/* footer */
+footer {
+    background-color:  #eee;
+    
+    padding-top: 15%;
+}
+footer img {
+    display: block;
+    width: 14%;
+    margin-bottom: 7%;
+}
+
+
+
+/* about section (in footer) */
+footer .about {
+    display: flex;
+    flex-direction: column;
+    
+}
+footer .about a{
+
+    text-decoration: none;
+    color: hsl(210, 10%, 33%);
+    font-size: large;
+}
+.about a:hover{
+    transition: 0.7s;
+    color: hsl(171, 66%, 44%);
+}
+
+/* social section (in footer) */
+
+.social {
+    margin-top: 10%;
+    display: flex;
+    text-align: center;
+    gap: 30px;
+    padding-bottom: 10%;
+
+}
+.social svg{
+   
+    fill: #4C545C;
+    
+    vertical-align: middle;
+
+    
+}
+.social svg:hover{
+    transition: 0.7s;
+    fill:hsl(171, 66%, 44%); 
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* media queries for desktop and tablets */
+@media (min-width:821px) and (max-width:2068px){
+    /* constant classes */
+    .parent section .mobile  {
+        display: none;
+    }
+    .parent .desktop{
+        
+        display: block;
+        
+    }
+    .parent section , footer{
+        margin-top: 0;
+        margin-bottom: 7%;
+    }
+
+    .parent section h1,h2,h3,h4{
+        font-size:xx-large;
+
+        margin-bottom: 1%;
+        
+    }
+    .parent section h1{
+        font-size: 35px;
+        
+        
+    }
+
+    .parent section p {
+        color: hsl(201, 11%, 66%);
+        line-height: 1.6;
+        font-size: 14px; 
+        margin-top: 0;
+    }    
+    
+    
+    
+    .parent .logo {
+        padding-top: 8%;
+        padding-bottom: 2%;
+        width: 7%;
+    }
+    .parent section  .h2{
+        margin-bottom: 2%;
+    }
+
+
+
+
+    /* head section */
+    .parent .head {
+        
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .parent .head p  , .parent .head h1{
+        width: 100%;
+    } 
+    .parent .head p {
+        font-size: medium;
+        margin: 0;
+        
+    }
+    .parent section button{
+        
+        border-radius: 50px;
+        margin: 0%  10px 0;
+        margin-top: 2.5%;
+        width: 17%;
+        padding: 1.1% 0;
+        font-size: large;
+        
+    }
+
+
+    
+    /* features section */
+    .parent .features {
+
+        flex-direction: row;
+        
+        gap: 7%;
+        flex-wrap: wrap;
+        margin-bottom: 0%;
+
+
+    }
+
+    .parent .features img {
+        width: 50%;
+        margin-top: 5%;
+    
+        
+    }
+    .parent .features .title {
+        text-align: left;
+        
+        display: flex;
+        flex-direction: column;
+        margin-top: -8%;
+        
+        
+        width: 43%;
+    }
+    .parent .features .title p {
+        margin-bottom: 2%;
+
+    }
+    .parent .features .title .h2 {
+        
+        font-size: larger;
+    }
+    .parent .features  h2 {
+        font-size: xx-large;
+        margin-bottom: 1%;
+        width: 100%;
+        
+    }
+    .parent .features p {
+        font-size: medium;
+        width: 100%;
+        margin-bottom: 0%;
+        padding-bottom: 0;
+    }
+    
+
+    /* access  */
+    .parent .access {
+        margin-bottom: 1%;
+    }
+    .parent .access img{
+        width: 70%;
+        margin-top: 5%;
+
+
+    }
+
+
+
+
+
+
+    /* Control section  */
+
+    .parent .control {
+        margin-top: 0%;
+        /* margin-bottom: 2%; */
+    }
+    .parent .control .t , .parent .control .t +p {
+        width: 100%;
+        
+        
+
+    }
+    .parent .control .t + p{
+        padding-bottom: 0%;
+        margin-bottom: 0;
+       
+    }
+    .parent .control {
+        flex-direction: row;
+        flex-wrap: wrap;
+        
+
+
+    }
+    .parent .control div {
+        width: 30%;
+        margin-top: 5%;
+        
+    }
+    /* compaines */
+    .parent .companies {
+        flex-direction: row;
+        gap: 7%;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-top: 4%;
+        margin-bottom: 2%;
+    }
+
+
+
+    /* download section */
+    .parent .download{
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin-top: -12%;
+        margin-bottom: 13%;
+    }
+    .parent .download h2 , .parent .download p {
+        width: 100%;
+    }
+
+    /* footer section */
+    
+    footer {
+        display: flex;
+        padding: 1% 4%;
+        margin: 0;
+        
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+
+    }
+
+    footer img{
+        width: 4%;
+        margin: 0;
+
+
+    }
+    /* about section (in footer) */
+    footer .about{
+        display: flex;
+        flex-direction: row;
+        gap: 13%;
+        margin-top: 0%;
+        flex-wrap: wrap;
+        width: 38%;
+        margin: 0 14%;
+        height: fit-content;
+    }
+
+    footer .about a{
+        margin: 4% 0;
+        font-size: medium;
+
+    
+    }
+    
+    
+    /* social section (in footer) */
+    footer .social{
+        margin: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0;
+    }
+
+
+    
+}
