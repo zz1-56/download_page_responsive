@@ -170,6 +170,7 @@ body {
 
 /* footer */
 footer {
+    margin-bottom: 0;
     background-color:  #eee;
     
     padding-top: 15%;
@@ -469,7 +470,7 @@ footer .about a{
     
     }
     
-    
+
     /* social section (in footer) */
     footer .social{
         margin: 0;
