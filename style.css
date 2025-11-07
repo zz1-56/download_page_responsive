@@ -239,8 +239,8 @@ footer .about a{
 
 
 
-/* media queries for desktop and tablets */
-@media (min-width:821px) and (max-width:2068px){
+/* Desktop design */
+@media (min-width:768px) and (max-width:2068px){
     /* constant classes */
     .parent section .mobile  {
         display: none;
@@ -385,7 +385,7 @@ footer .about a{
 
     .parent .control {
         margin-top: 0%;
-        /* margin-bottom: 2%; */
+
     }
     .parent .control .t , .parent .control .t +p {
         width: 100%;
@@ -483,5 +483,125 @@ footer .about a{
     }
 
 
+    
+}
+
+
+
+/* Tablet design */
+@media (min-width:768px) and (max-width:1024px){
+    /* constant clases */
+
+    .parent section button{
+        width: auto;
+        padding: 2.5% 6%;
+        margin-top: 4%; 
+    }    
+    .parent .logo {
+        width: 15%;
+        
+    }
+    .parent section h2 {
+        font-size: 35px;
+  
+    
+    }
+
+
+    /* features section */
+    .parent .features{
+        gap: 6%;
+    }
+    .parent .features img {
+        min-height:330px;
+    }
+    .parent .features  h2{
+        margin-bottom: 2%;
+    }
+    .parent .features p{
+        margin-bottom: 7%;
+    }
+
+    .parent .features .title .h2{
+        font-size: 22px;
+    }
+    .features .title p {
+        font-size: large;
+    }
+    .parent .features .title .desktop {
+        display: none;
+    }
+
+    /* Access */
+    .parent .access {
+        margin-top: 5%;
+        margin-bottom: 7%;
+    }
+    .parent .access img{
+        width: 80%;
+        
+        
+    }
+
+
+
+    /* control section  */
+    .parent .control {
+        align-items: center;
+        justify-content: center;
+        gap: 3%;
+        
+    }
+    .control div .desktop{
+        display: none;
+    }
+
+    /* companies */
+    .parent .companies {
+        gap: 1%;
+
+        flex-wrap: nowrap;
+        margin-top: 7%;
+        margin-bottom: 4%;
+    }
+    /* footer */
+    footer{
+        padding: 5% 4%;
+    }
+    footer img{
+        width: 10%;
+    }
+    footer .about{
+        width: 50%;
+        gap: 10%;
+        margin: 0 10%;
+    }
+
+    footer .about a{
+        font-size: 19px;
+
+    }
+    
+
+
+
+}
+
+
+/* for big tablet */
+@media (min-width:1024px) and (max-width:1050px){
+    
+
+    /* companies */
+    .parent .companies {
+        gap: 4%;
+        flex-wrap: nowrap;
+        margin-top: 7%;
+        margin-bottom: 4%;
+    }
+    footer .about a{
+        font-size: 24px;
+
+    }
     
 }
